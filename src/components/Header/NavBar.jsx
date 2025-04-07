@@ -17,7 +17,7 @@ import { Bars3Icon, BellIcon, XMarkIcon, ChevronDownIcon } from "@heroicons/reac
 
 export default function Nav() {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-gray-900">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8">
@@ -25,21 +25,22 @@ export default function Nav() {
               {/* Logo */}
               <div className="flex items-center px-2 lg:px-0">
                 <div className="shrink-0">
+                <Link href="/" >
                 <Image src={Logo} alt="Logo de la voie du bien-être massages et soins thérapeuthique à Halle" width={200} title="Massages et soins thérapeuthique à Hal"  height={200} className="h-10 w-auto" priority />
-                 
+                 </Link>
                 </div>
                 {/* Desktop Menu */}
                 <div className="hidden lg:ml-6 lg:block">
                   <div className="flex space-x-4">
                     {/* Dropdown Massage */}
                     <Menu as="div" className="relative inline-block text-left">
-                      <MenuButton className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white hover:bg-gray-700">
+                      <MenuButton className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-gray-800">
                         Massage <ChevronDownIcon className="inline size-4 ml-1" aria-hidden="true" />
                       </MenuButton>
                       <MenuItems className="absolute z-10 mt-2 w-48 origin-top-left rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none">
                         <div className="py-1">
                           <MenuItem>
-                            <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                            <Link href="/massage/relaxant" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                               Massage relaxant
                             </Link>
                           </MenuItem>
@@ -74,7 +75,7 @@ export default function Nav() {
 
                     {/* Dropdown Soin thérapeutique */}
                     <Menu as="div" className="relative inline-block text-left">
-                      <MenuButton className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">
+                      <MenuButton className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-800 hover:text-white">
                         Soin thérapeutique <ChevronDownIcon className="inline size-4 ml-1" aria-hidden="true" />
                       </MenuButton>
                       <MenuItems className="absolute z-10 mt-2 w-48 origin-top-left rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none">
@@ -94,14 +95,10 @@ export default function Nav() {
                               Réflexologie plantaire
                             </a>
                           </MenuItem>
+                  
                           <MenuItem>
                             <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                              Massage relaxant
-                            </Link>
-                          </MenuItem>
-                          <MenuItem>
-                            <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                             T cranio sacrée
+                             Thérapie cranio sacrée
                             </Link>
                           </MenuItem>
                           <MenuItem>
@@ -109,22 +106,27 @@ export default function Nav() {
                              Voyage des sens
                             </Link>
                           </MenuItem>
+                          <MenuItem>
+                            <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                             Amma
+                            </Link>
+                          </MenuItem>
                         </div>
                       </MenuItems>
                     </Menu>
 
-                    <a
+                    <Link
                       href="#"
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
-                      Projects
-                    </a>
-                    <a
+                      Blog
+                    </Link>
+                    <Link
                       href="#"
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
-                      Calendar
-                    </a>
+                      Contact
+                    </Link>
                   </div>
                 </div>
               </div>

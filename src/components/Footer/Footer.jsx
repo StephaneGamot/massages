@@ -15,22 +15,23 @@ const navigation = {
     { name: "Cranio sacrée", href: "#" },
     { name: "Reflexologie plantaire", href: "#" },
     { name: "Voyage des sens", href: "#" },
+    { name: "Massage sur chaise", href: "#" },
   ],
-  company: [
-    { name: "A propos", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "FAQ", href: "#" },
-    { name: "Avis", href: "#" },
-    { name: "Tarifs", href: "#" },
-    { name: "Langues", href: "#" },
-  ],
-  legal: [
-    { name: "Terms of service", href: "#" },
-    { name: "Privacy policy", href: "#" },
-    { name: "Map", href: "#" },
-    { name: "Se connecter", href: "#" },
-    { name: "S enregistrer", href: "#" },
-  ],
+informations: [
+  { name: "À propos", href: "#" },
+  { name: "Blog", href: "#" },
+  { name: "FAQ", href: "#" },
+  { name: "Avis", href: "#" },
+],
+
+ressources: [
+  { name: "Conditions d’utilisation", href: "#" },
+  { name: "Politique de confidentialité", href: "#" },
+  { name: "Plan du site", href: "#" },
+  { name: "Se connecter", href: "#" },
+  { name: "S’enregistrer", href: "#" },
+],
+
   social: [
     {
       name: "Facebook",
@@ -125,9 +126,9 @@ export default function Footer() {
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-lg font-semibold text-white">Company</h3>
+                <h3 className="text-lg font-semibold text-white">Informations</h3>
                 <ul role="list" className="mt-6 space-y-4">
-                  {navigation.company.map((item) => (
+                  {navigation.informations.map((item) => (
                     <li key={item.name}>
                       <Link
                         href={item.href}
@@ -140,9 +141,9 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-lg font-semibold text-white">Legal</h3>
+                <h3 className="text-lg font-semibold text-white">Ressources</h3>
                 <ul role="list" className="mt-6 space-y-4">
-                  {navigation.legal.map((item) => (
+                  {navigation.ressources.map((item) => (
                     <li key={item.name}>
                       <Link
                         href={item.href}

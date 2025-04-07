@@ -1,0 +1,402 @@
+[
+    {
+      "id": 1,
+      "body": "Un pur moment de calme et de chaleur humaine. Merci pour cette bulle de bien-être.",
+      "author": {
+        "name": "Sophie",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 2,
+      "body": "J’ai rarement connu un massage aussi réconfortant. Chaque geste semblait venir du cœur. Mille mercis",
+      "author": {
+        "name": "Alexandre Lafuit",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 3,
+      "body": "Une véritable évasion. J’en suis ressortie apaisée et rechargée.",
+      "author": {
+        "name": "Nathalie Radeis",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 4,
+      "body": "Dès que je suis allongé·e sur la table, je sens que je peux lâcher prise. J’ai ressenti un vrai relâchement du stress, dès les premières minutes.",
+      "author": {
+        "name": "Karim Ben D",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 5,
+      "body": "Je n’imaginais pas à quel point un massage pouvait me recentrer autant. Le soin est doux mais profond, exactement ce qu’il me fallait.",
+      "author": {
+        "name": "Isabelle T",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 6,
+      "body": "Une attention délicate du début à la fin. On se sent écouté et respecté.",
+      "author": {
+        "name": "Julie Sablart",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 7,
+      "body": "Ma tension musculaire s’est envolée. À refaire très vite ! J’ai rarement été aussi bien accueilli et massé.",
+      "author": {
+        "name": "Thierry Bierze",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 8,
+      "body": "Un pur moment de détente. Je reviendrai sans hésiter ! J’ai adoré l’huile utilisée, et la musique relaxante. Un soin complet",
+      "author": {
+        "name": "Lucie Bernard",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 9,
+      "body": "J’ai tout aimé : la musique douce, les huiles, le toucher enveloppant. C’était bien plus qu’un massage, c’était une parenthèse enchantée.",
+      "author": {
+        "name": "Sophie Lemoine",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 10,
+      "body": "Un soin d’une grande qualité, avec beaucoup d’humanité. Je reviendrai sans hésiter !",
+      "author": {
+        "name": "Elena VB",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 11,
+      "body": "C’était bien plus qu’un massage, c’était un soin de l’âme. Un vrai moment de réconfort dans une ambiance douce et sereine",
+      "author": {
+        "name": "Chloé Peters",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 12,
+      "body": "Mon esprit s’est évadé dès les premières minutes. Le stress de la semaine s’est envolé. Je me sens léger",
+      "author": {
+        "name": "Romain Allan",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 13,
+      "body": "J’ai eu l’impression que le temps s’arrêtait. Merci infiniment.",
+      "author": {
+        "name": "Claire",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 14,
+      "body": "Une belle découverte que je recommande sans hésiter.",
+      "author": {
+        "name": "Gabriel Marchand",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 15,
+      "body": "Chaque geste semblait fait pour apaiser. Très beau moment.",
+      "author": {
+        "name": "Audrey N",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 16,
+      "body": "Un accueil chaleureux et un soin tout en finesse.",
+      "author": {
+        "name": "Camille vD",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 17,
+      "body": "Un toucher professionnel, à l’écoute de mes besoins. Merci ! Une expérience enveloppante, attentionnée et profondément apaisante",
+      "author": {
+        "name": "Gabriel Perrin",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 18,
+      "body": "Dès l’entrée, on sent qu’on est entre de bonnes mains. Je ne pensais pas que ce massage me ferait autant de bien",
+      "author": {
+        "name": "Olivier Mertori",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 19,
+      "body": "Un vrai cocon de bienveillance et de douceur, Un bijou caché à Halle",
+      "author": {
+        "name": "Amandine paccini",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 20,
+      "body": "C’était magique, tout simplement.",
+      "author": {
+        "name": "Fabien C",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 21,
+      "body": "Je suis ressortie avec le sourire et l’envie de revenir.",
+      "author": {
+        "name": "Sabrina",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 22,
+      "body": "Top massage",
+      "author": {
+        "name": "Julie Acuvu",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 23,
+      "body": "Je ne pensais pas que ce massage me ferait autant de bien. C’était bien plus qu’un massage, c’était une parenthèse enchantée.",
+      "author": {
+        "name": "Marion Frst",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 24,
+      "body": "On sent une vraie écoute corporelle, une grande présence et le soin exceptionnel",
+      "author": {
+        "name": "Nicolas Willers",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 25,
+      "body": "Un soin qui m’a touchée bien au-delà du corps.",
+      "author": {
+        "name": "Valérie B",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 26,
+      "body": "J’ai dormi comme un bébé après le soin !",
+      "author": {
+        "name": "Thomas P",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 27,
+      "body": "Je ne pensais pas que ce massage me ferait autant de bien. Un vrai moment de réconfort dans une ambiance douce et sereine.",
+      "author": {
+        "name": "Hélène",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 28,
+      "body": "Super massage, j’en avais besoin.",
+      "author": {
+        "name": "Sébastien",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 29,
+      "body": "L’une des plus belles expériences de massage que j’ai vécue. Je ne pensais pas que cela me ferait autant de bien.",
+      "author": {
+        "name": "Jessica Cioni",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 30,
+      "body": "La douceur du toucher est inégalable, exactement ce qu’il me fallait",
+      "author": {
+        "name": "Arnaud Dutour",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 31,
+      "body": "Une expérience sensorielle enveloppante et délicate. Un pur moment de détente. Je reviendrai sans hésiter !",
+      "author": {
+        "name": "Emilie Van P",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 32,
+      "body": "Je ne pensais pas que ce massage me ferait autant de bien.",
+      "author": {
+        "name": "Laura Dupond",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 33,
+      "body": "Un moment suspendu hors du quotidien.",
+      "author": {
+        "name": "Yannick Collet",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 34,
+      "body": "Le soin est parfaitement adapté à nos besoins, c’etait bluffant.",
+      "author": {
+        "name": "Anne-Marie Charlotte",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 35,
+      "body": "J’ai ressenti un profond relâchement musculaire et émotionnel. je recommande à tous.",
+      "author": {
+        "name": "Mathieu N",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 36,
+      "body": "Un professionnalisme remarquable.",
+      "author": {
+        "name": "Sandrine Moreau",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 37,
+      "body": "Tout est pensé pour notre bien-être.",
+      "author": {
+        "name": "Jonathan Girard",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 38,
+      "body": "J’ai adoré la sensation d’enveloppement dans chacuns de ses gestes.",
+      "author": {
+        "name": "Sophie",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 39,
+      "body": "Une parenthèse de douceur, une vraie reconnexion.",
+      "author": {
+        "name": "Gaëlle",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 40,
+      "body": "Tout simplement parfait, du début à la fin.",
+      "author": {
+        "name": "Lucas Wilms",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 41,
+      "body": "Je ne pensais pas pouvoir lâcher prise si vite…",
+      "author": {
+        "name": "Caroline M.",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 42,
+      "body": "Un toucher intuitif, fluide, vraiment réparateur. Je le recommande",
+      "author": {
+        "name": "Marine Akil",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 43,
+      "body": "Le temps s’est arrêté. Je me suis sentie comme dans un cocon. J'ai enfin trouvé ce que je cherchais",
+      "author": {
+        "name": "Benjamin Karline",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 44,
+      "body": "Le stress de la semaine s’est envolé en 90 minutes",
+      "author": {
+        "name": "Manon",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 45,
+      "body": "Je suis sorti complètement détendu",
+      "author": {
+        "name": "Florent",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 46,
+      "body": "Un soin profondément régénérant, à tous les niveaux.",
+      "author": {
+        "name": "Nina ",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 47,
+      "body": "Une merveilleuse façon de prendre soin de soi.",
+      "author": {
+        "name": "Anthony",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 48,
+      "body": "C’était bien plus qu’un massage !",
+      "author": {
+        "name": "Elsa",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 49,
+      "body": "Ce massage m’a fait un bien fou. Merci encore !",
+      "author": {
+        "name": "Pauline",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": 50,
+      "body": "Une expérience unique qui mérite d’être vécue.",
+      "author": {
+        "name": "Géraldine",
+        "imageUrl": ""
+      }
+    }
+  ]

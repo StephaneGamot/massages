@@ -3,7 +3,6 @@ const testimonials = [
       body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
       author: {
         name: 'Leslie Alexander',
-        handle: 'lesliealexander',
         imageUrl:
           'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
       },
@@ -33,7 +32,6 @@ const testimonials = [
                       <img alt="" src={testimonial.author.imageUrl} className="size-10 rounded-full bg-gray-50" />
                       <div>
                         <div className="font-semibold text-gray-900">{testimonial.author.name}</div>
-                        <div className="text-gray-600">{`@${testimonial.author.handle}`}</div>
                       </div>
                     </figcaption>
                   </figure>
