@@ -15,9 +15,13 @@ body {
   background-color: var(--creme);
 }
 
-h1, h2, h3, a {
+h1, h2, h3 {
   font-family: var(--font-title), Helvetica, sans-serif;
   color: var(--olive);
+}
+
+a {
+    font-family: var(--font-title), Helvetica, sans-serif;
 }
 
 p, li {

@@ -12,7 +12,7 @@ export default function Home() {
       <MassageCardContainer />
       <Cta />
       <Contact />
-      <Testimonials />
+       <Testimonials ids={[1, 4, 7, 23, 35]} />
     </main>
   );
 }

@@ -2,20 +2,20 @@ import Link from "next/link";
 
 const navigation = {
   massages: [
-    { name: "Massage relaxant", href: "#" },
-    { name: "Massage sportif", href: "#" },
-    { name: "Massage à domicile", href: "#" },
-    { name: "Douceur Dorsale", href: "#" },
-    { name: "Massage anti-cellulite", href: "#" },
-    { name: "Massage tao", href: "#" },
+    { name: "Massage relaxant", href: "/massage/relaxant" },
+    { name: "Massage sportif", href: "/massage/sportif" },
+    { name: "Massage à domicile", href: "/massage/a-domicile" },
+    { name: "Douceur Dorsale", href: "/massage/douceur-dorsale" },
+    { name: "Massage anti-cellulite", href: "/massage/anti-cellulite" },
+    { name: "Massage tao", href: "/massage/tao" },
   ],
   soins: [
-    { name: "Shiatsu", href: "#" },
-    { name: "Reiki", href: "#" },
-    { name: "Cranio sacrée", href: "#" },
-    { name: "Reflexologie plantaire", href: "#" },
-    { name: "Voyage des sens", href: "#" },
-    { name: "Massage sur chaise", href: "#" },
+    { name: "Shiatsu", href: "/shiatsu/traditionnel" },
+    { name: "Reiki", href: "/reiki" },
+    { name: "Cranio sacrée", href: "/therapie-cranio-sacree" },
+    { name: "Reflexologie plantaire", href: "/reflexologie-plantaire" },
+    { name: "Voyage des sens", href: "/massage/voyage-des-sens" },
+    { name: "Massage sur chaise", href: "/shiatsu/amma" },
   ],
 informations: [
   { name: "À propos", href: "#" },
