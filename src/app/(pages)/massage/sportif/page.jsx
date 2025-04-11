@@ -41,7 +41,7 @@ export default function page() {
           price="79€"
         />
 
-        <Gallery ids={[4, 5, 6]} />
+        <Gallery ids={[7, 21, 24]} />
 
         <CtaSectionMassagePage
           title="Accordez à vos muscles le soin qu’ils méritent"

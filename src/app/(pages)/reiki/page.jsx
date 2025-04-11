@@ -49,7 +49,7 @@ export default function Page() {
           text="Offrez à votre être une pause ressourçante, à partir de"
           price="85€"
         />
-        <Gallery ids={[13, 14, 15]} />
+        <Gallery ids={[11, 17, 23]} />
         <CtaSectionMassagePage
           title="Prenez un moment pour vous reconnecter"
           soin="votre séance de Reiki"

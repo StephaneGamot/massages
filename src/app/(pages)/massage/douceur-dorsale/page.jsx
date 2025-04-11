@@ -50,7 +50,7 @@ export default function Page() {
           price="75€"
         />
 
-        <Gallery ids={[7, 8, 9]} />
+        <Gallery ids={[25, 8, 9]} />
         <CtaSectionMassagePage
           title="Votre dos mérite aussi de souffler"
           soin="le soin Douceur Dorsale"

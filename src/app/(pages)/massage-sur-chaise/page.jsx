@@ -35,7 +35,7 @@ export default function Page() {
         />
 
         <Benefits
-          ids={[20, 21, 22, 49]}
+          ids={[42, 44,  49, 51]}
           title="le massage Amma en entreprise"
         />
 
@@ -53,17 +53,17 @@ export default function Page() {
             </>
           }
           text="Tarifs adaptés aux entreprises, à partir de"
-          price="35€"
+          price="20 €"
         />
 
-        <Gallery ids={[25, 26, 27]} />
+        <Gallery ids={[4, 33, 34]} />
 
         <CtaSectionMassagePage
           title="Améliorez la qualité de vie au travail"
           soin="un massage Amma en entreprise"
         />
 
-        <Testimonials ids={[6, 17, 22, 36]} />
+        <Testimonials ids={[6, 17, 22, 36, 47]} />
       </main>
     </>
   );

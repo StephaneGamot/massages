@@ -47,7 +47,7 @@ export default function Page() {
           price="90€"
         />
 
-        <Gallery ids={[7, 8, 9]} />
+        <Gallery ids={[29, 27, 18]} />
 
         <CtaSectionMassagePage
           title="Offrez-vous un moment de recentrage"

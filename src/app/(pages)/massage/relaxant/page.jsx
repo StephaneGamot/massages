@@ -6,23 +6,38 @@ import Benefits from "@/components/Benefits/Benefits";
 import CtaSectionMassagePage from "@/components/Cta/CtaSectionMassagePage";
 import TreatmentDescription from "@/components/TreatmentDescription/TreatmentDescription";
 import WhyThisCare from "@/components/WhyThisCare/WhyThisCare";
+import HeadMassageRelaxant from "@/components/Metadata/MassageRelaxant/HeadMassageRelaxant";
 
-export default function MassageRelaxantPage() {
+export const metadata = {
+  title: "Massage relaxant à Halle (Bruxelles) - Détente & Bien-être",
+  description:
+    "Détendez votre corps et votre esprit grâce à un massage relaxant à Halle, près de Bruxelles. Une expérience douce, personnalisée, disponible en cabinet ou à domicile.",
+  alternates: {
+    canonical: "https://lavoiedubienetre.be/massage/relaxant",
+  },
+  openGraph: {
+    title: "Massage relaxant à Halle (Bruxelles)",
+    description:
+      "Découvrez un soin relaxant unique à Halle : douceur, lâcher-prise et sérénité dans un cadre professionnel.",
+    url: "https://lavoiedubienetre.be/massage/relaxant",
+    siteName: "La Voie du Bien-Être",
+    images: [
+      {
+        url: "https://www.lavoiedubienetre.be/Images/hero/massage-tao-a-domicile-massotherapeuthe-halle-bruxelles-brabant-wallon.webp",
+        width: 1200,
+        height: 630,
+        alt: "Massage relaxant à Halle",
+      },
+    ],
+    type: "website",
+  },
+};
+
+export default function Page() {
+  
   return (
     <>
-      <Head>
-        <title>
-          Massage relaxant à Halle (Bruxelles) - Détente & Bien-être
-        </title>
-        <meta
-          name="description"
-          content="Détendez votre corps et votre esprit grâce à un massage relaxant à Halle, près de Bruxelles. Une expérience douce, personnalisée, disponible en cabinet ou à domicile."
-        />
-        <link
-          rel="canonical"
-          href="https://lavoiedubienetre.be/massage/relaxant"
-        />
-      </Head>
+     <HeadMassageRelaxant />
       <main>
         <HeroMassage
           variant="massage"
@@ -34,7 +49,7 @@ export default function MassageRelaxantPage() {
         <Benefits ids={[1, 6, 19, 4]} title="un massage relaxant" />
         <WhyThisCare
           ids={[2, 6, 13, 21, 31]}
-          title="Est-ce que ce massage est pour moi ?"
+          title="Est-ce que ce massage détente est pour moi ?"
         />
         <TreatmentDescription
           title="Un soin tout en douceur"

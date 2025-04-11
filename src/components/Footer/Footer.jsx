@@ -16,7 +16,7 @@ const navigation = {
     { name: "Cranio sacrée", href: "/therapie-cranio-sacree" },
     { name: "Reflexologie plantaire", href: "/reflexologie-plantaire" },
     { name: "Voyage des sens", href: "/massage/voyage-des-sens" },
-    { name: "Massage sur chaise", href: "/massage/massage-sur-chaise" },
+    { name: "Massage sur chaise", href: "/massage-sur-chaise" },
   ],
 informations: [
   { name: "À propos", href: "#" },

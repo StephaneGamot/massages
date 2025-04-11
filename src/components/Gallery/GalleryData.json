@@ -101,13 +101,12 @@
   },
   {
     "id": 21,
-    "src": "/Images/massage/seance-shiatsu-point-12-meridien-intestin-grele.webp",
-    "alt": "Thérapie douce pour soulager les tensions"
-  },
-  {
-    "id": 21,
     "src": "/Images/massage/massage-sportif-femme-epaule-gauche.webp",
     "alt": "Massage énergétique dans un cadre apaisant"
+  }, {
+    "id": 22,
+    "src": "/Images/massage/cranio-sacree-point-still.webp",
+    "alt": "Point still pratiqué en cranio-sacré"
   },
   {
     "id": 23,
@@ -133,5 +132,35 @@
     "id": 27,
     "src": "/Images/massage/shiatsu-zen-meridien-de-la-vessie.webp",
     "alt": "Technique douce de shiatsu sur méridien"
+  },
+  {
+    "id": 28,
+    "src": "/Images/massage/double-massage-des-pieds.webp",
+    "alt": "Massages des 2 pieds en meme temps"
+  },{
+    "id": 29,
+    "src": "/Images/massage/seance-shiatsu-point-12-meridien-intestin-grele.webp",
+    "alt": "Thérapie douce pour soulager les tensions"
+  },{
+    "id": 30,
+    "src": "/Images/massage/reflexologie-plantaire-halle-bruxelles-tubize.webp",
+    "alt": "Massage plantaire inspiré de la réflexologie"
+  },{
+    "id": 31,
+    "src": "/Images/massage/therapie-cranio-sacree-mains-sur-occiput.webp",
+    "alt": "TSC travail sur les os parietaux"
+  },{
+    "id": 32,
+    "src": "/Images/massage/tsc-main-sur-occiput-autre-main-sur-os-frontal.webp",
+    "alt": "TSC une main sur occiput et l'autre sur l'os frontal"
+  },{
+    "id": 33,
+    "src": "/Images/massage/massage-sur-chaise-la-voie-du-bien-etre.webp",
+    "alt": "Séance de massage sur chaise pour une femme sur son lieu de travail"
+  },{
+    "id": 34,
+    "src": "/Images/massage/amma-la-voie-du-bien-etre.webp",
+    "alt": "séance de Amma pour une femme sur son lieu de travail"
   }
 ]
+

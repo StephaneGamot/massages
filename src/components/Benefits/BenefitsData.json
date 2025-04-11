@@ -6,10 +6,10 @@
     { "id": 5, "text": "Stimulation de la circulation sanguine" },
     { "id": 6, "text": "Apaisement du système nerveux" },
     { "id": 7, "text": "Soulagement des tensions du dos" },
-    { "id": 8, "text": "Favorise la récupération émotionnelle" },
-    { "id": 9, "text": "Sensation d’ancrage et de recentrage" },
+    { "id": 8, "text": "Favorise la récupération" },
+    { "id": 9, "text": "Sensation d’ancrage & recentrage" },
     { "id": 10, "text": "Régulation du rythme cardiaque" },
-    { "id": 11, "text": "Harmonisation du corps et de l’esprit" },
+    { "id": 11, "text": "Harmonisation du corps & esprit" },
     { "id": 12, "text": "Moment de pleine présence" },
     { "id": 13, "text": "Libération des blocages énergétiques" },
     { "id": 14, "text": "Amélioration de la digestion" },
@@ -40,14 +40,15 @@
     { "id": 39, "text": "Stimule la production d’endorphines" },
     { "id": 40, "text": "Redonne le sourire" },
     { "id": 41, "text": "Activation des fascias pour une détente profonde" },
-    { "id": 42, "text": "Soulagement localisé des tensions dorsales" },
+    { "id": 42, "text": "Soulagement localisé des tensions douloureuses au niveau du dos" },
     { "id": 43, "text": "Aide à drainer les tissus et affiner la silhouette" },
     { "id": 44, "text": "Massage ciblé pour les nœuds musculaires profonds" },
     { "id": 45, "text": "Équilibrage énergétique et soutien émotionnel" },
     { "id": 46, "text": "Élévation vibratoire et relaxation globale" },
     { "id": 47, "text": "Relâchement du système cranio-sacré" },
-    { "id": 48, "text": "Stimulation des zones réflexes pour rééquilibrage doux" },
-    { "id": 49, "text": "Relaxation rapide et efficace en entreprise" },
-    { "id": 50, "text": "Éveil sensoriel et immersion émotionnelle" }
+    { "id": 48, "text": "Stimulation des zones réflexes" },
+    { "id": 49, "text": "Relaxation rapide et efficace au sein même de  l'entreprise" },
+    { "id": 50, "text": "Éveil sensoriel et immersion émotionnelle" },
+    { "id": 51, "text": "Meilleure productivité au niveau professionnel" }
   ]
   

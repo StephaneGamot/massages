@@ -47,7 +47,7 @@ export default function TherapieCranioSacreePage() {
           text="Une invitation à ralentir et à revenir à soi, à partir de"
           price="85€"
         />
-        <Gallery ids={[8, 9, 10]} />
+        <Gallery ids={[22, 31, 32]} />
         <CtaSectionMassagePage
           title="Offrez à votre système nerveux un moment de réparation"
           soin="votre séance de thérapie cranio-sacrée"

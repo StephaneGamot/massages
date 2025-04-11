@@ -45,12 +45,12 @@ export default function Page() {
         <TreatmentDescription
           title="Une évasion sensorielle absolue"
           hero="Le Voyage des Sens agit en profondeur sur les fascias pour libérer les tensions enfouies, réveiller la circulation énergétique et instaurer une détente durable dans tout le corps."
-          duration={<>entre <strong>75</strong> et <strong>105 minutes</strong></>}
+          duration={<>entre <strong>90</strong> et <strong>120 minutes</strong></>}
           text="Un soin unique, à vivre pleinement, à partir de"
-          price="110"
+          price="99 €"
         />
 
-        <Gallery ids={[7, 11, 13]} />
+        <Gallery ids={[6, 8, 9]} />
         
         <CtaSectionMassagePage
           title="Prenez le temps d’un véritable voyage intérieur"

@@ -34,7 +34,7 @@ export default function Page() {
           text2="Ce soin libère les tensions, favorise la circulation et réveille les capacités d’auto-guérison du corps."
         />
 
-        <Benefits ids={[48, 8, 15, 14]} title="une séance de réflexologie plantaire" />
+        <Benefits ids={[48, 8, 16, 14]} title="une séance de réflexologie plantaire" />
 
         <WhyThisCare
           ids={[9, 10, 18, 27]}
@@ -53,7 +53,7 @@ export default function Page() {
           price="70€"
         />
 
-        <Gallery ids={[9, 10, 11]} />
+        <Gallery ids={[30, 10, 15]} />
 
         <CtaSectionMassagePage
           title="Faites confiance à vos pieds"

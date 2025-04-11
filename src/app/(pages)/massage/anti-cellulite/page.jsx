@@ -56,7 +56,7 @@ export default function page() {
           price="79€"
         />
 
-        <Gallery ids={[4, 5, 6]} />
+        <Gallery ids={[2, 5, 6]} />
 
         <CtaSectionMassagePage
           title="Sentez-vous plus légère, plus tonique"

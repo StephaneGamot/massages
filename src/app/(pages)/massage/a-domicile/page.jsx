@@ -47,7 +47,7 @@ export default function page() {
           price="99€ + indemnité de déplacement"
         />
 
-        <Gallery ids={[4, 5, 6]} />
+        <Gallery ids={[7, 12, 16]} />
 
         <CtaSectionMassagePage
           title="Créez votre bulle de bien-être chez vous"
