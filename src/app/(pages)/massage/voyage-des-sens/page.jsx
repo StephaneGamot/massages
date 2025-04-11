@@ -35,7 +35,7 @@ export default function Page() {
           text2="Il invite le corps à s’abandonner, et l’esprit à s’apaiser profondément."
         />
 
-        <Benefits ids={[5, 9, 11, 12]} title="le massage Voyage des Sens" />
+        <Benefits ids={[8, 29, 50, 12]} title="le massage Voyage des Sens" />
         
         <WhyThisCare
           ids={[8, 10, 22, 30]}

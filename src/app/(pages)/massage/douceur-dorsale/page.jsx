@@ -33,7 +33,7 @@ export default function Page() {
           text2="Chaque mouvement est une invitation à relâcher ce que votre dos porte depuis trop longtemps."
         />
 
-        <Benefits ids={[3, 4, 7, 9]} title="un massage du dos" />
+        <Benefits ids={[6, 42, 7, 19]} title="un massage du dos" />
         <WhyThisCare
           ids={[1, 10, 14, 25]}
           title="Est-ce que ce soin du dos est pour moi ?"

@@ -28,7 +28,7 @@ export default function Page() {
           text2="Retrouvez harmonie, ancrage et vitalité à travers un toucher précis, rythmé et bienveillant."
         />
 
-        <Benefits ids={[5, 7, 9, 11]} title="le massage Shiatsu" />
+        <Benefits ids={[17, 18, 45, 11]} title="le massage Shiatsu" />
 
         <WhyThisCare
           ids={[3, 12, 18, 25]}

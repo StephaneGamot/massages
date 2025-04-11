@@ -31,9 +31,9 @@ export default function MassageRelaxantPage() {
           text2="Chaque massage est une rencontre entre vos besoins et vos envies."
         />
 
-        <Benefits ids={[1, 2, 3, 4]} title="un massage relaxant" />
+        <Benefits ids={[1, 6, 19, 4]} title="un massage relaxant" />
         <WhyThisCare
-          ids={[2, 6, 13, 21]}
+          ids={[2, 6, 13, 21, 31]}
           title="Est-ce que ce massage est pour moi ?"
         />
         <TreatmentDescription
@@ -52,7 +52,7 @@ export default function MassageRelaxantPage() {
           title="Offrez à votre corps ce qu’il mérite"
           soin="votre massage relaxant"
         />
-        <Testimonials ids={[1, 4, 7, 23, 35]} />
+        <Testimonials ids={[1, 4, 11, 23, 35]} />
       </main>
     </>
   );

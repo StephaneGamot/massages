@@ -31,7 +31,7 @@ export default function TherapieCranioSacreePage() {
           text2="Elle agit en douceur sur le système nerveux et énergétique pour favoriser l’apaisement, l’ancrage et la régénération."
         />
 
-        <Benefits ids={[5, 6, 12, 27]} title="la thérapie cranio-sacrée" />
+        <Benefits ids={[16, 6, 24, 47]} title="la thérapie cranio-sacrée" />
         <WhyThisCare
           ids={[3, 9, 16, 20]}
           title="Est-ce que cette thérapie est faite pour moi ?"

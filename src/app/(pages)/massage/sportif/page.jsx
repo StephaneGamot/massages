@@ -26,7 +26,7 @@ export default function page() {
           text2="Chaque soin est adapté à votre corps, vos objectifs, et votre rythme."
         />
 
-        <Benefits ids={[5, 6, 7, 8]} title="un massage sportif" />
+        <Benefits ids={[2, 5, 21, 44]} title="un massage sportif" />
         
         <WhyThisCare
           ids={[3, 9, 17, 25]}

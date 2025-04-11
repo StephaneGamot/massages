@@ -34,7 +34,7 @@ export default function Page() {
           text2="Le massage tao est une célébration du vivant, de la circulation énergétique et du respect du corps."
         />
 
-        <Benefits ids={[6, 11, 12, 14]} title="un massage tao" />
+        <Benefits ids={[9, 11, 32, 46]} title="un massage tao" />
 
         <WhyThisCare
           ids={[3, 8, 15, 24]}

@@ -34,7 +34,7 @@ export default function Page() {
           text2="Ce soin libère les tensions, favorise la circulation et réveille les capacités d’auto-guérison du corps."
         />
 
-        <Benefits ids={[5, 8, 12, 14]} title="une séance de réflexologie plantaire" />
+        <Benefits ids={[48, 8, 15, 14]} title="une séance de réflexologie plantaire" />
 
         <WhyThisCare
           ids={[9, 10, 18, 27]}

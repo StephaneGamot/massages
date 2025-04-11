@@ -30,7 +30,7 @@ export default function page() {
         />
 
         <Benefits
-          ids={[5, 6, 7, 8]}
+          ids={[1, 18, 19, 31]}
           title="un massage à domicile"
         />
 

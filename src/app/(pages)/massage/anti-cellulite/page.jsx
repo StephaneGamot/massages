@@ -35,7 +35,7 @@ export default function page() {
         />
 
         <Benefits
-          ids={[8, 12, 15, 19]}
+          ids={[5, 14, 15, 43]}
           title="un massage anti-cellulite"
         />
 

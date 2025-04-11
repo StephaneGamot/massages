@@ -76,77 +76,86 @@ export default function Hero() {
                   </p>
                   <div className="mt-10 flex items-center gap-x-6">
                     <Link
-                      href="#"
+                      href="https://widget.treatwell.be/fr/salon/377730/menu/"
                       className="rounded-md bg-[#556B2F] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#8FBC8F] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#556B2F]"
                     >
                       Je prends soin de moi
                     </Link>
                     <Link
-                      href="#"
+                      href="https://widget.treatwell.be/fr/salon/377730/menu/"
                       className="rounded-md bg-[#556B2F] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#8FBC8F] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#556B2F]"
                     >
                       Offrir ce moment à un être cher
                     </Link>
                   </div>
                 </div>
-                <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
-                  <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
-                    <div className="relative">
-                      <Image
-                        alt="Votre masseur"
-                        src={Hero1}
-                        placeholder="blur"
-                        loading="lazy"
-                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                      />
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
-                  </div>
-                  <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
-                    <div className="relative">
-                      <Image
-                        alt=""
-                        src={Hero2}
-                        placeholder="blur"
-                        loading="lazy"
-                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                      />
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
-                    <div className="relative">
-                      <Image
-                        alt=""
-                        src={Hero3}
-                        placeholder="blur"
-                        loading="lazy"
-                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                      />
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
-                  </div>
-                  <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
-                    <div className="relative">
-                      <Image
-                        alt=""
-                        src={Hero4}
-                        placeholder="blur"
-                        loading="lazy"
-                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                      />
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
-                    <div className="relative">
-                      <Image
-                        alt=""
-                        src={Hero5}
-                        placeholder="blur"
-                        loading="lazy"
-                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                      />
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
-                    </div>
-                  </div>
-                </div>
+
+                <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-8 place-items-center">
+  {/* Colonne 1 */}
+  <div className="w-full max-w-[176px] space-y-6 pt-8 sm:pt-80 lg:pt-36 xl:pt-80">
+    <div className="relative">
+      <Image
+        alt="Portrait de votre praticien bien-être"
+        src={Hero1}
+        placeholder="blur"
+        loading="lazy"
+        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+      />
+      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+    </div>
+  </div>
+
+  {/* Colonne 2 */}
+  <div className="w-full max-w-[176px] space-y-6 sm:pt-52 lg:pt-36">
+    <div className="relative">
+      <Image
+        alt="Ambiance zen du cabinet"
+        src={Hero2}
+        placeholder="blur"
+        loading="lazy"
+        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+      />
+      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+    </div>
+    <div className="relative">
+      <Image
+        alt="Moment de détente absolue"
+        src={Hero3}
+        placeholder="blur"
+        loading="lazy"
+        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+      />
+      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+    </div>
+  </div>
+
+  {/* Colonne 3 */}
+  <div className="w-full max-w-[176px] space-y-6 pt-8 sm:pt-0">
+    <div className="relative">
+      <Image
+        alt="Accueil chaleureux en cabinet"
+        src={Hero4}
+        placeholder="blur"
+        loading="lazy"
+        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+      />
+      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+    </div>
+    <div className="relative">
+      <Image
+        alt="Cadre relaxant et bienveillant"
+        src={Hero5}
+        placeholder="blur"
+        loading="lazy"
+        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+      />
+      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+    </div>
+  </div>
+</div>
+
+
+
               </div>
             </div>
           </div>

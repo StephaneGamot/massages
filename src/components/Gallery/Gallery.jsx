@@ -19,7 +19,7 @@ export default function Gallery({ ids = [] }) {
           <div key={img.id} className="overflow-hidden rounded-2xl shadow max-w-[400]">
             <Image
               src={img.src}
-              alt={img.alt || `Image ${img.id}`}
+              alt={img.alt}
               className="w-full h-auto object-cover "
                loading="lazy"
               width={400}

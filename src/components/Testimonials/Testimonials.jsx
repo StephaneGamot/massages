@@ -32,7 +32,7 @@ export default function Testimonials({ ids = [] }) {
                   <figcaption className="mt-6 flex items-center gap-x-4">
                     {testimonial.author.imageUrl && (
                       <Image
-                        alt={testimonial.author.name}
+                        alt={testimonial.alt}
                         src={testimonial.author.imageUrl}
                         className="size-10 rounded-full bg-gray-50"
                         width={40}

@@ -33,7 +33,7 @@ export default function Page() {
           text2="Chaque séance est une invitation à se recentrer, se libérer et retrouver la paix intérieure."
         />
 
-        <Benefits ids={[6, 10, 11, 16]} title="un soin Reiki" />
+        <Benefits ids={[11, 13, 36, 46]} title="un soin Reiki" />
         <WhyThisCare
           ids={[3, 9, 12, 19]}
           title="Ce soin est-il fait pour vous ?"

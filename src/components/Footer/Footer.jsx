@@ -8,6 +8,7 @@ const navigation = {
     { name: "Douceur Dorsale", href: "/massage/douceur-dorsale" },
     { name: "Massage anti-cellulite", href: "/massage/anti-cellulite" },
     { name: "Massage tao", href: "/massage/tao" },
+    { name: "Massage deep-tissues", href: "/massage/deep-tissues" },
   ],
   soins: [
     { name: "Shiatsu", href: "/shiatsu/traditionnel" },
@@ -15,7 +16,7 @@ const navigation = {
     { name: "Cranio sacrée", href: "/therapie-cranio-sacree" },
     { name: "Reflexologie plantaire", href: "/reflexologie-plantaire" },
     { name: "Voyage des sens", href: "/massage/voyage-des-sens" },
-    { name: "Massage sur chaise", href: "/shiatsu/amma" },
+    { name: "Massage sur chaise", href: "/massage/massage-sur-chaise" },
   ],
 informations: [
   { name: "À propos", href: "#" },
@@ -35,7 +36,7 @@ ressources: [
   social: [
     {
       name: "Facebook",
-      href: "#",
+      href: "https://www.facebook.com/lavoiedubienetremassageshiatsureikireflexologie",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -48,7 +49,7 @@ ressources: [
     },
     {
       name: "Instagram",
-      href: "#",
+      href: "https://www.facebook.com/gamot.stephane/",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -61,7 +62,7 @@ ressources: [
     },
     {
       name: "X",
-      href: "#",
+      href: "https://x.com/voiedubienetre",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path d="M13.6823 10.6218L20.2391 3H18.6854L12.9921 9.61788L8.44486 3H3.2002L10.0765 13.0074L3.2002 21H4.75404L10.7663 14.0113L15.5685 21H20.8131L13.6819 10.6218H13.6823ZM11.5541 13.0956L10.8574 12.0991L5.31391 4.16971H7.70053L12.1742 10.5689L12.8709 11.5655L18.6861 19.8835H16.2995L11.5541 13.096V13.0956Z" />
@@ -70,7 +71,7 @@ ressources: [
     },
     {
       name: "YouTube",
-      href: "#",
+      href: "https://www.youtube.com/@lavoiedubien-etre",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -124,6 +125,7 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
+            ‘{/* 
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-lg font-semibold text-white">Informations</h3>
@@ -139,7 +141,7 @@ export default function Footer() {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> 
               <div className="mt-10 md:mt-0">
                 <h3 className="text-lg font-semibold text-white">Ressources</h3>
                 <ul role="list" className="mt-6 space-y-4">
@@ -156,9 +158,11 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
+*/}
+
           </div>
         </div>
-        <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between">
+      {/*   <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between">
           <div>
             <h3 className="text-lg font-semibold">
               Inscription à la newsletter
@@ -190,7 +194,7 @@ export default function Footer() {
               </button>
             </div>
           </form>
-        </div>
+        </div> */}
         <div className="mt-8 border-t border-white/10 pt-8 flex flex-col items-center gap-4 md:flex-row md:items-center md:justify-between">
 
           <div className="flex gap-x-6 md:order-2">

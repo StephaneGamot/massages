@@ -8,7 +8,7 @@ export default function HeroMassage({ variant, title, text1, text2 }) {
   return (
     <section className="relative h-[80vh] overflow-hidden bg-gray-50">
       {/* ✅ Image de fond */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 pointer-events-none">
         <Image
           src={hero.src}
           alt={hero.alt}
@@ -31,7 +31,7 @@ export default function HeroMassage({ variant, title, text1, text2 }) {
 
           <div className="mt-8">
             <Link
-              href="#reservation"
+              href="https://widget.treatwell.be/fr/salon/377730/menu/"
               className="inline-block rounded-md bg-[#556B2F] px-6 py-3 text-sm font-semibold text-white shadow hover:bg-[#6f8e42] transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#556B2F]"
             >
               Réserver ce soin &rarr;

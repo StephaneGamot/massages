@@ -35,7 +35,7 @@ export default function Page() {
         />
 
         <Benefits
-          ids={[5, 6, 10, 12]}
+          ids={[20, 21, 22, 49]}
           title="le massage Amma en entreprise"
         />
 
