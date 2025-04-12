@@ -65,7 +65,7 @@ export default function Hero() {
               </h1>
               <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                 <div className="relative w-full lg:max-w-xl lg:shrink-0 xl:max-w-2xl">
-                  <h2 className="text-pretty text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
+                  <h2 className="text-pretty text-5xl font-semibold tracking-tight sm:text-7xl">
                     Parce que le bien-être n’est pas un luxe… mais une
                     nécessité.
                   </h2>
