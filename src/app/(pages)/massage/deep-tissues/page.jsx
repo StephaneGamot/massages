@@ -29,16 +29,16 @@ export default function Page() {
           text2="Ce massage thérapeutique agit en profondeur pour vous apporter un soulagement durable et une sensation de légèreté retrouvée."
         />
 
-        <Benefits ids={[2, 27, 28, 44]} title="un massage deep tissues" />
+        <Benefits ids={[57, 27, 58 , 59]} title="un massage deep tissues" />
 
-        <WhyThisCare ids={[4, 7, 15, 20]} title="Est-ce que ce massage Deep tissues est fait pour vous ?" />
+        <WhyThisCare ids={[32,15, 20, 16]} title="Est-ce que ce massage Deep tissues est fait pour vous ?" />
 
         <TreatmentDescription
           title="Un soin intense, pour un apaisement profond"
           hero="Ce massage utilise des pressions lentes et ciblées sur les muscles profonds et les tissus conjonctifs. Il est idéal pour ceux qui recherchent une détente durable et un soin réparateur."
           duration={<>entre <strong>60</strong> et <strong>90 minutes</strong></>}
           text="Offrez à votre corps un soin thérapeutique complet, à partir de"
-          price="85€"
+          price="70 €"
         />
 
         <Gallery ids={[7, 13, 24]} />
@@ -48,8 +48,8 @@ export default function Page() {
           soin="votre massage Deep Tissues"
         />
 
-        <Testimonials ids={[5, 18, 30, 35, 43]} />
-      </main>
+        <Testimonials ids={[5, 15 , 30, 35, 43, 13]} />
+      </main> 
     </>
   );
 }

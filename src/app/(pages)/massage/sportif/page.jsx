@@ -26,10 +26,10 @@ export default function page() {
           text2="Chaque soin est adapté à votre corps, vos objectifs, et votre rythme."
         />
 
-        <Benefits ids={[2, 5, 21, 44]} title="un massage sportif" />
+        <Benefits ids={[2, 7, 52, 53 ]} title="un massage sportif" />
         
         <WhyThisCare
-          ids={[3, 9, 17, 25]}
+          ids={[3, 8, 12, 14]}
           title="Est-ce que ce massage sportif est pour moi ?"
         />
 
@@ -38,7 +38,7 @@ export default function page() {
           hero="Le massage sportif vise à soulager les tensions musculaires, améliorer la récupération et prévenir les blessures. Il peut être tonique ou plus profond, selon votre pratique."
           duration={ <>entre <strong>60</strong> et <strong>90 minutes</strong></> }
           text="Offrez à votre corps ce regain d’énergie, à partir de"
-          price="79€"
+          price="74€"
         />
 
         <Gallery ids={[7, 21, 24]} />

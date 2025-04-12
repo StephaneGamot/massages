@@ -60,7 +60,7 @@ export default function Page() {
           soin="votre massage tao"
         />
 
-        <Testimonials ids={[9, 18, 22, 27, 33]} />
+        <Testimonials ids={[9, 18, 22, 27, 33, 21]} />
       </main>
     </>
   );

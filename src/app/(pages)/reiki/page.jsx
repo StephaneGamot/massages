@@ -33,9 +33,9 @@ export default function Page() {
           text2="Chaque séance est une invitation à se recentrer, se libérer et retrouver la paix intérieure."
         />
 
-        <Benefits ids={[11, 13, 36, 46]} title="un soin Reiki" />
+        <Benefits ids={[11, 61 , 36, 46]} title="un soin Reiki" />
         <WhyThisCare
-          ids={[3, 9, 12, 19]}
+          ids={[39, 36, 28, 22]}
           title="Ce soin est-il fait pour vous ?"
         />
         <TreatmentDescription
@@ -47,14 +47,14 @@ export default function Page() {
             </>
           }
           text="Offrez à votre être une pause ressourçante, à partir de"
-          price="85€"
+          price="70 €"
         />
         <Gallery ids={[11, 17, 23]} />
         <CtaSectionMassagePage
           title="Prenez un moment pour vous reconnecter"
           soin="votre séance de Reiki"
         />
-        <Testimonials ids={[5, 8, 20, 29, 47]} />
+        <Testimonials ids={[5, 10, 20, 29, 47]} />
       </main>
     </>
   );

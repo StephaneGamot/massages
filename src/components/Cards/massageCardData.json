@@ -20,7 +20,7 @@
 	{
 		"id": 3,
 		"title": "Séance de Shiatsu",
-		"description": "Technique japonaise utilisant la pression des doigts sur des points issu de la medecine chinoise afin de rééquilibrer & réharmoniser l'énergie du corps.",
+		"description": "Technique japonaise utilisant la pression des doigts sur des points issu de la medecine chinoise afin de rééquilibrer & réharmoniser l'énergie",
 		"imageUrl": "/Images/massage/shiatsu.webp",
 		"imageAlt": "Sur un futon, une jeune femme recoit une séance de shiatsu",
 		"url": "/shiatsu/traditionnel",
@@ -66,7 +66,7 @@
 	{
 		"id": 8,
 		"title": "Massage anti-cellulite",
-		"description": "Ce massage d'une grande efficacité, stimule la circulation, raffermit la peau et aide visiblement à lisser la cellulite, pour une silhouette plus harmonieuse et légère.",
+		"description": "Ce massage d'une grande efficacité, raffermit la peau, aide visiblement à lisser la cellulite, pour une silhouette plus, fine, harmonieuse et légère.",
 		"imageUrl": "/Images/massage/massage-ventouses-mini.webp",
 		"imageAlt": "Une ventouse qui travaille sur les capitons d'une cuisse",
 		"url": "/massage/anti-cellulite",
@@ -84,7 +84,7 @@
 	{
 		"id": 10,
 		"title": "Massage Tao",
-		"description": "Reconnectez-vous à votre essence, vivez le bien-être profond du massage Tao. Un voyage sensoriel & apaisant où chaque toucher célèbre votre bien-être. ",
+		"description": "Reconnectez-vous, vivez le bien-être profond du massage Tao. Un voyage sensoriel & apaisant où chaque toucher célèbre votre bien-être. ",
 		"imageUrl": "/Images/massage/massage-tao-card.webp",
 		"imageAlt": "un sourire",
 		"url": "/massage/tao",

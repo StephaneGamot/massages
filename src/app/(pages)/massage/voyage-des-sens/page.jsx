@@ -35,19 +35,19 @@ export default function Page() {
           text2="Il invite le corps à s’abandonner, et l’esprit à s’apaiser profondément."
         />
 
-        <Benefits ids={[8, 29, 50, 12]} title="le massage Voyage des Sens" />
+        <Benefits ids={[31, 63, 50, 64 ]} title="le massage Voyage des Sens" />
         
         <WhyThisCare
-          ids={[8, 10, 22, 30]}
+          ids={[37, 35, 31, 25, 19]}
           title="Est-ce que ce massage doux et sensuel est pour vous ?"
         />
         
         <TreatmentDescription
           title="Une évasion sensorielle absolue"
           hero="Le Voyage des Sens agit en profondeur sur les fascias pour libérer les tensions enfouies, réveiller la circulation énergétique et instaurer une détente durable dans tout le corps."
-          duration={<>entre <strong>90</strong> et <strong>120 minutes</strong></>}
+          duration={<> <strong>120 minutes</strong></>}
           text="Un soin unique, à vivre pleinement, à partir de"
-          price="99 €"
+          price="125 €"
         />
 
         <Gallery ids={[6, 8, 9]} />

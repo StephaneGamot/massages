@@ -35,12 +35,12 @@ export default function page() {
         />
 
         <Benefits
-          ids={[5, 14, 15, 43]}
+          ids={[15, 43, 55, 56]}
           title="un massage anti-cellulite"
         />
 
         <WhyThisCare
-          ids={[3, 7, 14, 28]}
+          ids={[38, 29, 17, 15]}
           title="Est-ce que ce soin est pour moi ?"
         />
 
@@ -53,7 +53,7 @@ export default function page() {
             </>
           }
           text="Un soin personnalisé pour des résultats visibles, à partir de"
-          price="79€"
+          price="70 €"
         />
 
         <Gallery ids={[2, 5, 6]} />
@@ -63,7 +63,7 @@ export default function page() {
           soin="votre massage anti-cellulite"
         />
 
-        <Testimonials ids={[5, 11, 27, 39, 44]} />
+        <Testimonials ids={[50, 49, 36, 19, 16 ]} />
       </main>
     </>
   );

@@ -4,6 +4,8 @@ import Contact from "@/components/Contact/Contact";
 import Hero from "@/components/Hero/Hero";
 import MassageCardContainer from "@/components/Cards/MassageCardContainer";
 import Cta from "@/components/Cta/Cta";
+import StructuredData from "@/components/Metadata/StructuredData";
+import { MetadataHomePage } from "@/components/Metadata/HomePage/MetadataHomePage";
 
 export const metadata = {
   title: "Massage & soin therapeutique à Halle - Bruxelles",
@@ -21,7 +23,7 @@ export const metadata = {
       type: "website",
       images: [
         {
-          url: "https://lavoiedubienetre.be/Images/OpenGraph/OG-image-massage-Courcelles.jpg",
+          url: "https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg",
           width: 1200,
           height: 627,
           alt: "La voie du bien-être à Halle",
@@ -33,12 +35,14 @@ export const metadata = {
       card: "summary_large_image",
       site: "@voiedubienetre",
       description: "Centre de massage à Halle | Shiatsu Reiki Reflexologie Plantaire | La voie du bien-être",
-      images: ["https://lavoiedubienetre.be/Images/OpenGraph/OG-image-massage-Courcelles.jpg"],
+      images: ["https://lavoiedubienetre.be/Images/OpenGraph/masseur-massage.jpg"],
     },
   };
 
 export default function Home() {
   return (
+    <>
+ <StructuredData data={MetadataHomePage} />
     <main>
       <Hero />
       <MassageCardContainer />
@@ -46,5 +50,6 @@ export default function Home() {
       <Contact />
        <Testimonials ids={[1, 4, 7, 23, 35]} />
     </main>
+    </>
   );
 }

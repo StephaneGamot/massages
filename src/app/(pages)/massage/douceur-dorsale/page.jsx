@@ -33,9 +33,9 @@ export default function Page() {
           text2="Chaque mouvement est une invitation à relâcher ce que votre dos porte depuis trop longtemps."
         />
 
-        <Benefits ids={[6, 42, 7, 19]} title="un massage du dos" />
+        <Benefits ids={[6, 54, 35, 52]} title="un massage du dos" />
         <WhyThisCare
-          ids={[1, 10, 14, 25]}
+          ids={[33, 29, 21, 8 ]}
           title="Est-ce que ce soin du dos est pour moi ?"
         />
         <TreatmentDescription
@@ -47,7 +47,7 @@ export default function Page() {
             </>
           }
           text="Prenez soin de votre dos avec ce massage exclusif, à partir de"
-          price="75€"
+          price="74 €"
         />
 
         <Gallery ids={[25, 8, 9]} />

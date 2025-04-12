@@ -28,10 +28,10 @@ export default function Page() {
           text2="Retrouvez harmonie, ancrage et vitalité à travers un toucher précis, rythmé et bienveillant."
         />
 
-        <Benefits ids={[17, 18, 45, 11]} title="le massage Shiatsu" />
+        <Benefits ids={[17, 18, 60, 11]} title="une séance de Shiatsu" />
 
         <WhyThisCare
-          ids={[3, 12, 18, 25]}
+          ids={[34, 31, 29, 24, 18]}
           title="À qui s’adresse le Shiatsu ?"
         />
 
@@ -40,11 +40,11 @@ export default function Page() {
           hero="Le Shiatsu est un art du toucher issu du Japon, qui utilise des pressions des doigts le long des méridiens pour relancer la circulation énergétique, détendre le système nerveux et soutenir l’auto-régulation du corps."
           duration={
             <>
-              environ <strong>75</strong> à <strong>90 minutes</strong>
+              environ <strong>90 minutes</strong>
             </>
           }
           text="Prenez soin de votre équilibre intérieur, à partir de"
-          price="90€"
+          price="99 €"
         />
 
         <Gallery ids={[29, 27, 18]} />
@@ -54,7 +54,7 @@ export default function Page() {
           soin="votre soin Shiatsu"
         />
 
-        <Testimonials ids={[12, 18, 27, 34, 42]} />
+        <Testimonials ids={[12, 18, 27, 34, 42, 46]} />
       </main>
     </>
   );

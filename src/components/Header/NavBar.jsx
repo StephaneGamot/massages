@@ -53,7 +53,7 @@ export default function Nav() {
                           aria-hidden="true"
                         />
                       </MenuButton>
-                      <MenuItems className="absolute z-10 mt-2 w-48 origin-top-left rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none">
+                      <MenuItems className="absolute z-20 mt-2 w-48 origin-top-left rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none">
                         <div className="py-1">
                           <MenuItem>
                             <Link
@@ -124,7 +124,7 @@ export default function Nav() {
                           aria-hidden="true"
                         />
                       </MenuButton>
-                      <MenuItems className="absolute z-10 mt-2 w-48 origin-top-left rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none">
+                      <MenuItems className="absolute z-20 mt-2 w-48 origin-top-left rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none">
                         <div className="py-1">
                           <MenuItem>
                             <Link
@@ -181,6 +181,11 @@ export default function Nav() {
                     <Menu as="div" className="relative inline-block text-left">
                       <MenuButton className="rounded-md px-3 py-2 text-lg text-gray-300 hover:bg-gray-800 hover:text-white">
                         <Link href="/#contact"> Contact </Link>
+                      </MenuButton>
+                    </Menu>
+                    <Menu as="div" className="relative inline-block text-left">
+                      <MenuButton className="rounded-md px-3 py-2 text-lg text-gray-300 hover:bg-gray-800 hover:text-white">
+                        <Link href="/faq">FAQ</Link>
                       </MenuButton>
                     </Menu>
                   </div>
@@ -317,6 +322,13 @@ export default function Nav() {
                 className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
               >
                 CONTACT
+              </DisclosureButton>
+              <DisclosureButton
+                as="a"
+                href="/faq"
+                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              >
+               FAQ
               </DisclosureButton>
             </div>
           </DisclosurePanel>
